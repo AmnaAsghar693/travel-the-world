@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: red;
+    height: 88vh;
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    /* margin: 6px; */
+
+    /* trick to center  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

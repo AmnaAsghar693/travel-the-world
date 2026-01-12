@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+
+
+.sidebar {
+    background-color: rgb(00,00,104);
+    width: 25rem;
+    height: 120rem;
+   
+    color:white;
+    font-size: 1.6rem;
+
+    /* display: inline-block; */
+}
+.t-icon {
+    color: blue;
+    font-size: 2.5rem;
+}
+.side-header {
+    border-bottom: 1px solid white;
+    padding: 2rem 0;
+     text-align: center;
+}
+.side-shopname {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.side-shopname span {
+    color: orange;
+}
+.side-badge {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 1rem;
+}
+.side-profile {
+    border-bottom: 1px solid white;
+    padding: 2rem 1.5rem;
+}
+
+
+.side-profile img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.p1 {
+display: inline-block;
+}
+.p2 {
+    display: inline-block;
+}
+.pAdmin {
+    font-size: 20px;
+}
+.pAdminister {
+    color: gray;
+}
+
+.graph-icon {
+    font-size: 15p
+   }
+.side-graph {
+    /* text-align: center; */
+    background-color: blue;
+    margin:1rem;
+    padding: 1.2rem;
+    border-radius: 1rem;
+}
+.side-product {
+    margin: 1.8rem;
+    padding: 1.2rem;
+
+}
+.side-board {
+    font-size: 20px;
+   }
+   .side-graph:hover {
+    cursor: pointer;
+   }
+   .side-packege {
+font-size: 17px;
+margin:0 -0.9rem;
+   }
+   .side-3rd {
+    font-size: 19px;
+    margin: 0 2rem;
+   }
+   .side-product:hover {
+    cursor: pointer;
+    background-color:rgb(97, 96, 96) ;
+    border-radius: 0.5rem;
+   }
+   .side-orders {
+    padding:1.2rem;
+    margin:2rem ;
+
+   }
+   .side-cart {
+    font-size: 20px;
+    margin: 0 -1rem;
+   }
+   .side-4th {
+    font-size: 20px;
+    margin: 0 2rem;
+   }
+   .side-orders:hover {
+    cursor: pointer;
+    background-color: rgb(97, 95, 95);
+    border-radius: 1rem;
+   }
+   .side-custm {
+    font-size: 20px;
+    margin: 0  -0.8rem;
+   }
+   .side-5th {
+    font-size: 20px;
+    margin: 2rem;
+   }
+   .side-customer {
+    margin: 2rem;
+    padding: 1.2rem;
+}
+   .cus-hov:hover {
+    cursor: pointer;
+    background-color: rgb(95, 95, 95);
+   }
+   .side-list {
+    margin:0.5rem ;
+    padding: 2rem;
+    list-style: none;
+    margin-left: -1rem;
+   }
+   .side-list li {
+    padding: 1rem 0;
+   }
+   .side-file {
+    font-size: 20px;
+    margin: 0 2rem;
+   }
+   .side-cntnt {
+    font-size: 20px;
+   }
+   .content:hover  {
+    cursor: pointer;
+    background-color: rgb(97, 95, 95);
+    border-radius: 1rem;
+}
+   .side-report {
+    font-size: 20px;
+}
+.side-chart {
+    font-size: 20px;
+}
+.Analytics {
+    margin: 1rem;
+    padding:  2rem;
+    border-bottom: 0.5px solid white;
+}
+.Analytics:hover {
+    cursor: pointer;
+    background-color: rgb(94, 94, 94);
+    border-radius: 1rem;
+    }
+    .side-out {
+        font-size: 20px;
+        color:rgb(135, 1, 1);
+    }
+    .side-last {
+        font-size: 20px;
+        color: rgb(135, 1, 1);
+    }
+    .out {
+        margin: 2rem;
+        padding: 1rem;
+    }
+    .out:hover {
+        cursor: pointer;
+        background-color: rgb(119, 2, 2);
+        border-radius: 1rem;
+    }
+    
+    
+    .Rightbar {
+        background-color: white;
+        width: 90vw;
+        height: 200vh;
+        color: black;
+        font-size: 1.6rem;
+     }
+    .main-header {
+        display: flex;
+    justify-content:flex-start;
+        flex-direction: column;
+        }
+        .right-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+   }
+        .container {
+            background-color:white;
+            display: flex;
+            gap: 2rem;
+            margin-top: 3rem;
+            justify-content: space-evenly;
+        }
+        .box {
+            /* display: flex; */
+            border-left:3px;
+            border-left-style: solid;
+            border-left-color: green;
+            border-radius: 1rem;
+            padding: 2rem;
+         }
+    .SS {
+         margin:3rem 3rem;
+}
+.aside-header {
+    /* height: 300px; */
+    width: 500px;
+    display: flex;
+    font-size: 30px;
+    padding-left: 3rem;
+}
+.cart {
+    padding-left: 5rem;
+}
+.user {
+    padding-left: 5rem;
+}
+.triangle {
+    padding-left: 5rem;
+}
+.star {
+    padding-left: 5rem;
+}
+.Return {
+    padding-left: 5rem;
+}
+.same {
+    font-size: 15px;
+}

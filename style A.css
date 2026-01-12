@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+
+.box {
+    width: 18rem;
+    height: 18rem;
+}
+
+.box1{
+    background-color: green;
+    opacity: 0.5;
+}
+.box2 {
+    background-color: rgb(255, 0, 0);
+    padding: 2.5rem;
+    border:  solid black;
+    /* filter: invert(1); */
+}
+
+
+
+input:focus {
+    border: 3px solid blue;
+}
